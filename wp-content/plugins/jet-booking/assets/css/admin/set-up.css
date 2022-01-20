@@ -1,0 +1,89 @@
+.jet-abaf-reset {
+	padding: 40px;
+	color: #7B7E81;
+	text-align: center;
+}
+
+.jet-abaf-reset p {
+	font-size: 15px;
+	line-height: 23px;
+	margin: 0;
+	padding: 0 0 25px;
+}
+
+.jet-abaf-reset p b {
+	color: #23282d;
+	display: block;
+	font-size: 18px;
+	line-height: 27px;
+}
+
+p.jet-abaf-setup-descr {
+	padding: 0;
+	margin: 0;
+	color: #7B7E81;
+	font-size: 15px;
+	line-height: 23px;
+}
+
+div.cx-vui-panel.jet-abaf-panel {
+	padding: 40px;
+}
+
+div.cx-vui-panel.jet-abaf-panel.jet-abaf-panel-cols {
+	display: flex;
+	justify-content: space-between;
+}
+
+div.cx-vui-panel.jet-abaf-panel .jet-abaf-panel-col {
+	flex: 0 0 48%;
+	max-width: 48%;
+}
+
+div.cx-vui-panel.jet-abaf-panel .cx-vui-subtitle {
+	margin-top: 0;
+	text-align: left;
+}
+
+div.cx-vui-panel .jet-abaf-panel-block p {
+	color: #7b7e81;
+	font-size: 15px;
+}
+
+div.cx-vui-panel .jet-abaf-panel-block + .jet-abaf-panel-block {
+	padding: 30px 0 0;
+}
+
+div.cx-vui-panel .jet-abaf-panel-block .dashicons {
+	margin: 0 10px 0 0;
+}
+
+.jet-abaf-setup {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 30px 0 0 0;
+}
+
+.jet-abaf-setup__actions {
+	display: flex;
+	justify-content: center;
+}
+
+h3.cx-vui-subtitle {
+	margin: 20px 0 20px;
+	text-align: center;
+}
+
+.jet-abaf-setup__db-columns {
+	display: flex;
+	flex-wrap: wrap;
+	color: #7b7e81;
+	margin: 0 0 0 30px;
+}
+
+.jet-abaf-setup__db-columns li {
+	border-radius: 4px;
+	border: 2px solid #DCDCDD;
+	padding: 6px 10px;
+	margin: 0 10px 10px 0;
+}

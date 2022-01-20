@@ -1,0 +1,96 @@
+{
+	"apiVersion": 2,
+	"name": "jet-forms/check-in-out",
+	"category": "jet-form-builder-fields",
+	"icon": "<svg width=\"64\" height=\"64\" viewBox=\"0 0 64 64\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<rect width=\"64\" height=\"64\" fill=\"white\"/>\n<rect x=\"10\" y=\"10\" width=\"44\" height=\"47\" rx=\"3\" fill=\"white\" stroke=\"#162B40\" stroke-width=\"2\"/>\n<path d=\"M10 13C10 11.3431 11.3431 10 13 10H51C52.6569 10 54 11.3431 54 13V23H10V13Z\" fill=\"#4AF3BA\" stroke=\"#162B40\" stroke-width=\"2\"/>\n<path d=\"M17 7C17 6.44772 17.4477 6 18 6C18.5523 6 19 6.44772 19 7V13C19 13.5523 18.5523 14 18 14C17.4477 14 17 13.5523 17 13V7Z\" fill=\"#162B40\"/>\n<path d=\"M45 7C45 6.44772 45.4477 6 46 6C46.5523 6 47 6.44772 47 7V13C47 13.5523 46.5523 14 46 14C45.4477 14 45 13.5523 45 13V7Z\" fill=\"#162B40\"/>\n<rect x=\"14.5\" y=\"27.5\" width=\"5\" height=\"5\" rx=\"0.5\" fill=\"white\" stroke=\"#162B40\"/>\n<rect x=\"14.5\" y=\"37.5\" width=\"5\" height=\"5\" rx=\"0.5\" fill=\"#4AF3BA\" stroke=\"#162B40\"/>\n<rect x=\"14.5\" y=\"47.5\" width=\"5\" height=\"5\" rx=\"0.5\" fill=\"#4AF3BA\" stroke=\"#162B40\"/>\n<rect x=\"24.5\" y=\"27.5\" width=\"5\" height=\"5\" rx=\"0.5\" fill=\"#4AF3BA\" stroke=\"#162B40\"/>\n<rect x=\"24.5\" y=\"37.5\" width=\"5\" height=\"5\" rx=\"0.5\" fill=\"#4AF3BA\" stroke=\"#162B40\"/>\n<rect x=\"24.5\" y=\"47.5\" width=\"5\" height=\"5\" rx=\"0.5\" fill=\"white\" stroke=\"#162B40\"/>\n<rect x=\"34.5\" y=\"27.5\" width=\"5\" height=\"5\" rx=\"0.5\" fill=\"#4AF3BA\" stroke=\"#162B40\"/>\n<rect x=\"34.5\" y=\"37.5\" width=\"5\" height=\"5\" rx=\"0.5\" fill=\"#4AF3BA\" stroke=\"#162B40\"/>\n<rect x=\"34.5\" y=\"47.5\" width=\"5\" height=\"5\" rx=\"0.5\" fill=\"white\" stroke=\"#162B40\"/>\n<rect x=\"44.5\" y=\"27.5\" width=\"5\" height=\"5\" rx=\"0.5\" fill=\"#4AF3BA\" stroke=\"#162B40\"/>\n<rect x=\"44.5\" y=\"37.5\" width=\"5\" height=\"5\" rx=\"0.5\" fill=\"#4AF3BA\" stroke=\"#162B40\"/>\n<rect x=\"44.5\" y=\"47.5\" width=\"5\" height=\"5\" rx=\"0.5\" fill=\"white\" stroke=\"#162B40\"/>\n</svg>\n",
+	"keywords": [
+		"field",
+		"check-in-out",
+		"check_in_out",
+		"booking",
+		"apartment"
+	],
+	"textdomain": "jet-form-builder",
+	"supports": {
+		"customClassName": false,
+		"html": false
+	},
+	"attributes": {
+		"cio_field_layout": {
+			"type": "string",
+			"default": ""
+		},
+		"cio_fields_position": {
+			"type": "string",
+			"default": ""
+		},
+		"first_field_label": {
+			"type": "string",
+			"default": ""
+		},
+		"first_field_placeholder": {
+			"type": "string",
+			"default": ""
+		},
+		"second_field_label": {
+			"type": "string",
+			"default": ""
+		},
+		"second_field_placeholder": {
+			"type": "string",
+			"default": ""
+		},
+		"cio_fields_format": {
+			"type": "string",
+			"default": ""
+		},
+		"cio_fields_separator": {
+			"type": "string",
+			"default": ""
+		},
+		"start_of_week": {
+			"type": "string",
+			"default": ""
+		},
+		"label": {
+			"type": "string",
+			"default": ""
+		},
+		"name": {
+			"type": "string",
+			"default": "field_name"
+		},
+		"desc": {
+			"type": "string",
+			"default": ""
+		},
+		"default": {
+			"type": "string",
+			"default": ""
+		},
+		"required": {
+			"type": "boolean",
+			"default": false
+		},
+		"add_prev": {
+			"type": "boolean",
+			"default": false
+		},
+		"prev_label": {
+			"type": "string",
+			"default": ""
+		},
+		"visibility": {
+			"type": "string",
+			"default": ""
+		},
+		"class_name": {
+			"type": "string",
+			"default": ""
+		},
+		"className": {
+			"type": "string",
+			"default": ""
+		}
+	}
+}

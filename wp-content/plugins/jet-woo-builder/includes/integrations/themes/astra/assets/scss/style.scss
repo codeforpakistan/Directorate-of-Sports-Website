@@ -1,0 +1,21 @@
+.elementor-template-full-width .ast-container {
+	max-width: 100%;
+	padding: 0;
+}
+
+.elementor-jet-single-add-to-cart {
+	.cart {
+		.quantity {
+			float: left;
+		}
+
+		.buttons_added {
+			display: flex !important;
+			float: left !important;
+
+			input[type=number] {
+				max-width: 100%;
+			}
+		}
+	}
+}
